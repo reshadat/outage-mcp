@@ -1,0 +1,45 @@
+{
+  "name": "outage-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for live service outage data. Ask your AI if Cloudflare is down. Powered by whatbroke.today, no API keys required.",
+  "type": "module",
+  "bin": {
+    "outage-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "outage",
+    "status-page",
+    "downtime",
+    "incidents",
+    "claude",
+    "ai"
+  ],
+  "author": "Reshadat Ali (https://reshadat.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshadat/outage-mcp.git"
+  },
+  "homepage": "https://whatbroke.today",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
