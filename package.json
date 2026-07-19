@@ -1,6 +1,7 @@
 {
   "name": "outage-mcp",
-  "version": "0.1.0",
+  "mcpName": "io.github.reshadat/outage-mcp",
+  "version": "0.1.1",
   "description": "MCP server for live service outage data. Ask your AI if Cloudflare is down. Powered by whatbroke.today, no API keys required.",
   "type": "module",
   "bin": {
