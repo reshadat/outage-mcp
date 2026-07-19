@@ -1,5 +1,9 @@
 # outage-mcp
 
+[![npm](https://img.shields.io/npm/v/outage-mcp?style=flat-square&color=111111)](https://www.npmjs.com/package/outage-mcp)
+[![license](https://img.shields.io/badge/license-MIT-111111?style=flat-square)](LICENSE)
+[![powered by](https://img.shields.io/badge/data-whatbroke.today-e3120b?style=flat-square)](https://whatbroke.today)
+
 Ask your AI if Cloudflare is down.
 
 An MCP server that gives Claude, Cursor, and any MCP client live outage data from [whatbroke.today](https://whatbroke.today), which monitors 100+ service status pages continuously. No API keys, no signup.
